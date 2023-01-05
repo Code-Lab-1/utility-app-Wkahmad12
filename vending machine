@@ -1,0 +1,182 @@
+item=['pepsi(2 AED); 010']
+item2=['cake(1 AED); 012']
+item3=['juice(1.50 AED); 013']
+item4=['kitkat(3.50 AED); 014']
+item5=['water(1 AED); 015']
+item6=['cofee(2 AED); 016']
+item7=['tea(1 AED); 017']
+print("=======================================\nWELCOME TO THE VENDING MACHINE!!\n=======================================")
+print("Item\tPrice\tCode")
+print(item)
+print(item2)
+print(item3)
+print(item4)
+print(item5)
+print(item6)
+print(item7)
+x=str(input("-----------------------------\nEnter the product code:\n"))
+if x=='010':
+    print('You have chosen pepsi!')
+    y=float(input("Pay the amount:\n"))
+    pepsi = 2
+    if y > pepsi:
+        print("Take your change with your selected item: ",y - pepsi)
+    elif y<pepsi:
+        print("no enough money")    
+        print("Amount refunded")
+    elif y==pepsi:
+        print("Here is your pepsi")
+elif x == '012':
+    print('You have chosen cake!')
+    y=float(input("Pay the amount:\n"))
+    cake = 1
+    if y > cake:
+        print("Take your change with your selected item: ",y - cake)
+    elif y<cake:
+        print("no enough money")    
+        print("Amount refunded")
+    elif y==cake:
+        print("Here is your cake")
+elif x == '013':
+    print("You have chosen juice")
+    y=float(input("Pay the amount:\n"))
+    juice=1.50
+    if y > juice:
+        print("Take your change with your selected item: ",y - juice)
+    elif y<juice:
+        print("no enough money")    
+        print("Amount refunded")
+    elif y==juice:
+        print("Here is your juice")
+elif x == '014':
+    print("You have chosen kitkat ")
+    y=float(input("Pay the amount:\n"))
+    kitkat=3.50
+    if y > kitkat:
+        print("Take your change with your selected item: ",y - kitkat)
+    elif y<kitkat:
+        print("no enough money")    
+        print("Amount refunded")
+    elif y==kitkat:
+        print("Here is your kitkat")
+elif x == '015':
+    print("You have chosen water")
+    y=float(input("Pay the amount:\n"))
+    water=1
+    if y > water:
+        print("Take your change with your selected item: ",y - water)
+    elif y<water:
+        print("no enough money")    
+        print("Amount refunded")
+    elif y==water:
+        print("Here is your water")
+elif x == '016':
+    print("You have chosen cofee")
+    y=float(input("Pay the amount:\n"))
+    cofee=2
+    if y > cofee:
+        print("Take your change with your selected item: ",y - cofee)
+    elif y<cofee:
+        print("no enough money")    
+        print("Amount refunded")
+    elif y==cofee:
+        print("Here is your cofee")
+elif x == '017':
+    print("You have chosen tea")
+    y=float(input("Pay the amount:\n"))
+    tea=1
+    if y > tea:
+        print("Take your change with your selected item: ",y - tea)
+    elif y<tea:
+        print("no enough money")    
+        print("Amount refunded")
+    elif y==tea:
+        print("Here is your tea")
+while True:
+    z=str(input("-----------------------------\nBuy something more yes/no:\n"))
+    
+    if z=='no':
+        print("=======================================\nTHANK YOU FOR USING THE VENDING MACHINE!!\n=======================================")
+        break
+    elif z=='yes':
+       x=str(input("Input code to buy:\n"))
+    if x=='010':
+               print('You have chosen pepsi')
+               y=float(input("Pay the amount:\n"))
+               pepsi = 2
+               if y > pepsi:
+                   print("Take your change with your selected item: ",y- pepsi)
+                   
+               elif y<pepsi:
+                            print("No enough money") 
+               elif y==pepsi:
+                 print("Here is your pepsi")  
+    elif x == '012':
+               print('You have chosencake')
+               y=float(input("Pay the amount:\n"))
+               cake = 1
+               if y > cake:
+                 print("Take your change with your selected item: ",y - cake)
+               elif y<cake:
+                 print("No enough money")    
+                 print("Amount refunded")
+               elif y==cake:
+                 print("Here is your cake")
+                       
+    elif x=='013':
+               print('You have chosen juice')
+               y=float(input("Pay the amount:\n"))
+               juice=1.50
+               if y > juice:
+                    print ("Take your change with your selected item: ",y - juice)
+               elif y<juice:
+                    print("No enough money")
+                    print("Amount refunded")
+               elif y==juice:
+                    print("Here is your juice")     
+                            
+    elif x=='014':
+                             print('You have chosen kitkat')
+                             y=float(input("Pay the amount:\n"))
+                             kitkat = 3
+                             if y > kitkat:
+                              print("Take your change with your selected item: ",y- kitkat)
+                             elif y<kitkat:
+                              print("No enough money")
+                              print("Amount refunded")
+                             elif y==kitkat:
+                               print("Here is your kitkat")
+    elif  x=='015':
+                               print('You have chosen water')
+                               y=float(input("Pay the amount:\n"))
+                               water = 1
+                               if y > water:
+                                print("Take your change with your selected item: ",y- water)
+                               elif  y<water:
+                                   print("No enough money")
+                                   print("Amount refunded")
+                               elif y==water:
+                                 print("Here is your water")
+    elif  x=='016':
+                                   print('You have chosen cofee')
+                                   y=float(input("Pay the amount:\n"))
+                                   cofee= 2
+                                   if y > cofee:
+                                    print("Take your change with your selected item: ",y- cofee)
+                                   elif y<cofee:
+                                     print("No enough money") 
+                                     print("Amount refunded")
+                                   elif y==cofee:
+                                     print("Here is your cofee")
+
+    elif x=='017':
+                                      print('You have chosen tea')
+                                      y=float(input("Pay the amount:\n"))
+                                      tea = 1
+                                      if y > tea:
+                                       print("Take your change with your selected item: ",y- tea)
+                                      elif y<tea:
+                                        print("No enough money") 
+                                        print("Amount refunded")
+                                      elif y==tea:
+                                        print("Here is your tea")
